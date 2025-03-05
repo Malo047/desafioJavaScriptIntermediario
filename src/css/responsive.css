@@ -1,0 +1,13 @@
+@media(max-width:768px){
+    body{
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+        height: 100%;
+    }
+    #container{
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+    }
+}

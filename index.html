@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/src/css/reset.css">
 <link rel="stylesheet" href="/src/css/style.css">
+<link rel="stylesheet" href="/src/css/responsive.css">
 </head>
 <body>
     <div id="container">
@@ -20,16 +21,21 @@
     </div>
     <div id="formulario">
         <form action="">   
-            <input type="text" name="nomeCompleto" placeholder="Nome Completo*" value=""><br>
-            <input type="email" name="email" placeholder="Email*" value=""><br>
-            <input type="number" name="numeroTelefone" placeholder="Telefone*" value=""><br><br>
-            <textarea name="descricaoContato" placeholder="Mensagem*"></textarea>   
+            <input type="text" name="nomeCompleto" placeholder="Nome Completo*" value="">
+            <p class="preenchimentoObrigatorioHidden">Preenchimento Obrigatório *</p>
+            <input type="email" name="email" placeholder="Email*" value="">
+            <p class="preenchimentoObrigatorioHidden">Preenchimento Obrigatório *</p>
+            <input type="number" name="numeroTelefone" placeholder="Telefone*" value="">
+            <p class="preenchimentoObrigatorioHidden">Preenchimento Obrigatório *</p>
+            <textarea class="textArea" name="descricaoContato" placeholder="Mensagem*"></textarea> 
+            <p class="preenchimentoObrigatorioHidden">Preenchimento Obrigatório *</p>  
             <p>*Campos obrigatórios</p><br>
             <button id="btnEnviar">Enviar</button>
+            
         </form>
        
     </div>
-
+    
     <script src="index.js"></script>
 </body>
 </html>

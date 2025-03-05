@@ -38,7 +38,7 @@ body{
     flex-direction: column;
     align-items: center;
     width: 600px;
-    height: 800px;
+    height: 700px;
     padding: 20px;
 }
 #formulario form input{
@@ -68,4 +68,24 @@ body{
 }
 #formulario form #btnEnviar:hover{
     opacity: 0.5;
+}
+.vazio{
+    border-color: red;
+}
+.comConteudo{
+    border-color: #3CCC87;
+}
+.preenchimentoObrigatorioHidden{
+    color: red;
+    font-size: 10px;
+    display: none;
+}
+.preenchimentoObrigatorio{
+    color: red;
+    font-size: 10px;
+    display: block;
+}
+.textArea{
+    margin-top: 30px;
+    padding: 15px;
 }
